@@ -1,0 +1,13 @@
+{
+  "name": "serverless-experiments",
+  "version": "0.0.1",
+  "description": "experimenting with serverless",
+  "main": "index.js",
+  "dependencies": {
+    "serverless": "1.53.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Jeremy Green",
+  "license": "MIT"
+}

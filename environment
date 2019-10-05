@@ -1,0 +1,4 @@
+# -*- mode: shell-script -*-
+SOURCE_DIR="$(readlink -f "$(dirname "$0")")"
+export PATH="${SOURCE_DIR}/bin:${SOURCE_DIR}/node_modules/.bin:${PATH}"
+
