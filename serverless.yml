@@ -3,6 +3,7 @@ service:
 
 plugins:
   - serverless-webpack
+  - serverless-domain-manager
 
 provider:
   name: aws
@@ -17,3 +18,12 @@ functions:
       - http:
           method: get
           path: hello
+
+custom:
+  customDomain:
+    domainName: serverless.jeremygreen.me.uk
+    stage: production
+    certificateName: '*.jeremygreen.me.uk'
+    createRoute53Record: false
+    endpointType: 'regional'
+    securityPolicy: tls_1_2
