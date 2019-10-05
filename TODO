@@ -1,2 +1,7 @@
+* Rate limiting.
+
+* Update DNS record.
+  - can this be done automatically?
+
 * Add shell-completion to environment script.
   - after https://github.com/serverless/serverless/issues/4069 fixed.
