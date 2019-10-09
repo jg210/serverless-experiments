@@ -1,7 +1,12 @@
 * Rate limiting.
 
 * Update DNS record.
-  - can this be done automatically?
+  - create plugin
+    - in .serverless_plugins/
+  - on after:create_domain:create
+  - https://serverless.com/framework/docs/providers/aws/guide/plugins#hooks
+  - how would plugin get the IP address?
+    - by adding a https://serverless.com/framework/docs/providers/aws/guide/plugins#thisvariableresolvers-structure?
 
 * Add shell-completion to environment script.
   - after https://github.com/serverless/serverless/issues/4069 fixed.
